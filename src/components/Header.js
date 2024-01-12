@@ -44,8 +44,8 @@ export const Header = () => {
               />
             </Link>
             <Link to="/">
-              <span className=" self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-               Tharun FilmyMate
+              <span className=" self-center text-base sm:text-2xl font-semibold whitespace-nowrap dark:text-white">
+                Tharun FilmyMate
               </span>
             </Link>
           </div>
