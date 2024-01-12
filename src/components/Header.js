@@ -15,6 +15,7 @@ export const Header = () => {
     const queryTerm = e.target.search.value;
 
     e.target.reset();
+    setHidden(!hidden);
     return navigate(`/search?q=${queryTerm}`);
   };
   const activeClass =
