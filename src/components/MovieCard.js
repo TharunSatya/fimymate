@@ -1,16 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ErrorImage from "../assets/images/backup.png";
-import Logo from "../assets/logo.png";
+
 export const MovieCard = (props) => {
   const { movie } = props;
   const {
     poster_path,
     overview,
     id,
-    original_language,
+
     original_title,
-    release_date,
   } = movie;
   const imagesLink = `https://image.tmdb.org/t/p/w500/${poster_path}`;
   const finalImage = poster_path ? imagesLink : ErrorImage;
